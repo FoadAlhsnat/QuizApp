@@ -1,0 +1,42 @@
+.buttonWrapper {
+  transition: all 0.3s ease;
+}
+
+.buttonWrapper:hover {
+  opacity: 0.8;
+}
+
+.buttonWrapper  input {
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 40px;
+  margin: 5px 0;
+  background: linear-gradient(90deg, #56ccff, #6eafb4);
+  border: none;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1100px;
+  background: #ebfeff;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 1rem;
+}
+
+.correct {
+  background-image: linear-gradient(90deg, #56FFA4, #59BC86) !important;
+
+}
+
+.wrong{
+    background-image: linear-gradient(90deg, #FF5656, #C16868) !important;
+    
+}
+
