@@ -12,3 +12,6 @@ npm install
 ```
  npm start
 ```
+
+### Demo 
+https://typescriptquizapp.netlify.app/
